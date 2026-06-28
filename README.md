@@ -1,9 +1,9 @@
 
-content = """# Asset Manager
+# Asset Manager
 
 A multi-role procurement and asset management system built with **Laravel 12**, **MySQL**, **Tailwind CSS**, **Alpine.js**, and **Laravel Breeze**.
 
-## Project Overview (For Non-Technical Readers)
+## Project Overview 
 
 **The Problem:** In many companies, keeping track of physical equipment (like laptops, monitors, or phones) is messy. Employees ask for things over email or chat, managers lose track of approvals, and the IT department doesn't know who has what device. 
 
