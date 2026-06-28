@@ -1,8 +1,25 @@
-# Asset Manager
+
+content = """# Asset Manager
 
 A multi-role procurement and asset management system built with **Laravel 12**, **MySQL**, **Tailwind CSS**, **Alpine.js**, and **Laravel Breeze**.
 
-Employees request equipment, managers approve or deny requests by department, and IT admins manage the global asset inventory.
+## Project Overview (For Non-Technical Readers)
+
+**The Problem:** In many companies, keeping track of physical equipment (like laptops, monitors, or phones) is messy. Employees ask for things over email or chat, managers lose track of approvals, and the IT department doesn't know who has what device. 
+
+**The Solution:** Asset Manager is a central hub that organizes this entire process from start to finish. It ensures nothing gets lost in the shuffle and everyone is held accountable for company property. 
+
+**Who Uses It?**
+* **Employees:** When an employee needs a new piece of equipment, they log in and submit a simple request explaining what they need and why. They can also see what company gear is currently assigned to them.
+* **Managers:** A manager logs in to see requests specifically from their team. They act as the gatekeeper, deciding whether to approve or deny the request based on the team's needs or budget.
+* **IT Admins:** The IT team has a global view of everything. They manage the "inventory" (a master list of all company equipment). When a manager approves a request, the IT Admin physically prepares the item, updates the system to mark the request as "fulfilled," and assigns the specific device to the employee.
+
+**The Workflow:**
+1. An **Employee** submits a request for a new monitor.
+2. Their **Manager** reviews the request and clicks "Approve."
+3. The **Admin** sees the approved request, grabs a monitor from the storage room, records its serial number in the system, hands it to the employee, and marks the request as "Fulfilled."
+
+---
 
 ## Tech Stack
 
